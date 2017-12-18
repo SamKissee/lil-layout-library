@@ -6893,6 +6893,21 @@ html {
   position: absolute;
   width: 1px; }
 
+.nav-wrapper {
+  background-color: #000;
+  color: #fff; }
+
+.page-footer {
+  background-color: #fff; }
+  .page-footer p, .page-footer h5 {
+    color: #000; }
+  .page-footer .footer-container {
+    height: 225px;
+    margin-top: 100px; }
+  .page-footer .footer-copyright {
+    background-color: #fff;
+    border-top: 1px solid #000; }
+
 .btn, .btn-large {
   margin-top: 2em; }
 
