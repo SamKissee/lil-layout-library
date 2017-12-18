@@ -6867,17 +6867,13 @@ html {
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: 1180px;
+  max-width: 100vw;
   /* 1 */
   margin-left: auto;
   /* 2 */
   margin-right: auto;
   /* 2 */
-  padding-left: 20px;
-  /* 3 */
-  padding-right: 20px;
-  /* 3 */
-  width: 100%;
+  width: 80%;
   /* 1 */ }
 
 .hide-text {
@@ -6896,5 +6892,67 @@ html {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+.btn, .btn-large {
+  margin-top: 2em; }
+
+.card-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10em;
+  margin-bottom: 10em; }
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.gallery {
+  width: 65%;
+  margin: 0 auto; }
+
+.gal-item {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+  height: 35vh;
+  margin: 2em; }
+
+.item1 {
+  height: 60vh; }
+
+.gal-img, .gal-content {
+  width: 100%;
+  height: 100%; }
+
+.gal-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white; }
+
+.gal-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img1 {
+  background-image: url(../img/gal-1.jpg); }
+
+.img2 {
+  background-image: url(../img/gal-2.jpg); }
+
+.img3 {
+  background-image: url(../img/gal-3.jpg); }
+
+.img4 {
+  background-image: url(../img/gal-4.jpg); }
+
+.img5 {
+  background-image: url(../img/gal-5.jpg); }
+
+.img6 {
+  background-image: url(../img/gal-6.jpg); }
 
 /*# sourceMappingURL=styles.css.map */
