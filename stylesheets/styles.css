@@ -6897,6 +6897,54 @@ html {
   background-color: #000;
   color: #fff; }
 
+.parallax1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5em;
+  margin-top: 5em; }
+  .parallax1 h2 {
+    margin: 0px; }
+
+.parallax2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5em;
+  margin-top: 5em; }
+  .parallax2 h2 {
+    margin: 0px; }
+  .parallax2 .p2-list {
+    display: flex; }
+    .parallax2 .p2-list p {
+      margin: 2em; }
+
+.parallax3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 5em;
+  margin-top: 15em; }
+  .parallax3 h4 {
+    margin: 0px; }
+  .parallax3 .p3-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center; }
+  .parallax3 .p3-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start; }
+    .parallax3 .p3-right button {
+      background-color: transparent;
+      border: 0; }
+    .parallax3 .p3-right .input-field {
+      color: white; }
+
 .page-footer {
   background-color: #fff; }
   .page-footer p, .page-footer h5 {
