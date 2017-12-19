@@ -6962,7 +6962,7 @@ html {
     .parallax3 .p3-right button {
       background-color: transparent;
       border: 0; }
-    .parallax3 .p3-right .input-field {
+    .parallax3 .p3-right .active {
       color: white; }
 
 .page-footer {
@@ -6978,6 +6978,32 @@ html {
 
 .btn, .btn-large {
   margin-top: 2em; }
+
+.blog-area {
+  margin: 80px auto;
+  line-height: 1.875; }
+  .blog-area h5.title {
+    font-size: 20px;
+    margin-bottom: 5em;
+    font-weight: 600; }
+  .blog-area .blog {
+    margin: 8em auto; }
+  .blog-area h2 {
+    font-weight: 200; }
+  .blog-area p {
+    font-size: 18px;
+    font-weight: 100; }
+    .blog-area p.author {
+      font-size: 16px; }
+    .blog-area p.blog-intro {
+      font-weight: bold;
+      font-style: italic; }
+  .blog-area span {
+    border-bottom: 1px solid #000;
+    display: block;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 2.5%; }
 
 .card-area {
   display: flex;
