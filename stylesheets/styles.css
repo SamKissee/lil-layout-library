@@ -7006,10 +7006,30 @@ body {
     color: var(--text); }
   .page-footer .footer-container {
     height: 225px;
-    margin-top: 100px; }
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 30px; }
   .page-footer .footer-copyright {
-    background-color: #fff;
-    border-top: 1px solid #000; }
+    background-color: #fff; }
+    .page-footer .footer-copyright .copyright-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      width: 80%;
+      margin: 0 auto; }
+      .page-footer .footer-copyright .copyright-container .footer-icons .fa {
+        color: black;
+        font-size: 1em;
+        padding-right: 20px; }
+
+.footer-line-con {
+  display: flex;
+  justify-content: center; }
+  .footer-line-con .footer-line {
+    width: 80%;
+    background-color: black;
+    height: 1px; }
 
 .btn, .btn-large {
   margin-top: 2em;
