@@ -7000,7 +7000,9 @@ body {
     border-top: 1px solid #000; }
 
 .btn, .btn-large {
-  margin-top: 2em; }
+  margin-top: 2em;
+  background-color: black;
+  color: white; }
 
 .article-area {
   margin-top: 5em;
