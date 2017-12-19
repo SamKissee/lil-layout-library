@@ -7077,6 +7077,20 @@ h1, h2, h3, h4, h5, h6 {
   .blog-area .search-area {
     margin: 10vh auto; }
 
+@media screen and (max-width: 991px) {
+  .col-order {
+    display: flex;
+    flex-direction: column; }
+
+  .sidebar {
+    order: 1;
+    margin-top: 5vh; } }
+@media screen and (min-width: 992px) {
+  .col.m12.l8.posts {
+    margin-left: 2em; }
+
+  .row .col.l8 {
+    width: 62.666667%; } }
 .article-area {
   margin-top: 5em;
   color: var(--text); }
