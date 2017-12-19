@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('.parallax').parallax();
   $(".button-collapse").sideNav();
   $(".dropdown-button").dropdown();
-  $(".toggle").click(function(){
+  $(".lever").click(function(){
         $("body").toggleClass("nightmode");
     });
 
