@@ -146,7 +146,9 @@
 .img6 {
   background-image: url(../img/gal-6.jpg);
 }
-
+i.email:hover {
+  opacity: .5;
+}
 
 @media (max-width: 992px) {
   .gallery {
