@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .page-footer {
-  background-color: #fff;
+  background-color: var(--background);
   p, h5 {
     color: var(--text);
   }
@@ -14,7 +14,7 @@
     margin-right: 30px;
   }
   .footer-copyright {
-    background-color: #fff;
+    background-color: var(--background);
     // border-top: 1px solid #000;
     .copyright-container {
       display: flex;
@@ -24,11 +24,9 @@
       width: 80%;
       margin: 0 auto;
       .footer-icons {
-        .fa {
-          color: black;
-          font-size: 1em;
-          padding-right: 20px;
-        }
+        color: var(--text);
+        font-size: 1em;
+        padding-right: 20px;
       }
     }
   }
@@ -38,7 +36,7 @@
   justify-content: center;
   .footer-line {
     width: 80%;
-    background-color: black;
+    background-color: var(--text);
     height: 1px;
   }
 }
