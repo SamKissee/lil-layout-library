@@ -1,10 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.article-area{
+  margin-top: 5em;
+  .line {
+    @include line;
+    background-color: $primary-text;
+  }
+}
+
 .card-area{
   display: flex;
   justify-content: space-around;
-  margin-top: 10em;
+  margin-top: 5em;
   margin-bottom: 10em;
 }
 
@@ -135,4 +143,14 @@
 }
 .img6 {
   background-image: url(../img/gal-6.jpg);
+}
+
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+  }
+  .item1, .item6{
+    flex-grow: 1;
+  }
 }
