@@ -31,6 +31,9 @@
     padding-bottom: 20px;
     width: 2.5%;
   }
+  ul li.active {
+    background: black;
+  }
   .card {
     margin-top: 40px;
     .card1 {
@@ -41,5 +44,8 @@
       height: 175px;
       width: 100%;
     }
+  }
+  .search-area {
+  margin: 10vh auto;
   }
 }
