@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Layout Library</title>
     <link rel="shortcut icon" type="image" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster|Pacifico|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,700" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,6 +25,7 @@
         <li><a href="#!">Full-Width</a></li>
       </ul>
       <ul id="dropdown-colors" class="dropdown-content">
+        <li class="toggle">Toggle Light/Dark Theme</li>
         <li><a href="#!">Light Theme</a></li>
         <li class="divider"></li>
         <li><a href="#!">Dark Theme</a></li>
@@ -32,56 +36,66 @@
         <a href="#!" class="brand-logo">Ll.</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown-layouts">Layouts<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown-colors">Colors<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="nav-item dropdown-button" href="#!" data-activates="dropdown-layouts">Layouts<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="nav-item dropdown-button" href="#!" data-activates="dropdown-colors">Colors<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="#">Layouts</a></li>
+          <li><a class="subheader">LAYOUTS</a></li>
           <li class="divider"></li>
-            <ul class="layout-content">
-              <li><a href="#!">Content / Sidebar</a></li>
-              <li><a href="#!">Sidebar / Content</a></li>
-              <li><a href="#!">Full-Width</a></li>
+            <ul class="sidenav-content">
+              <li><a href="#!" class="waves-effect">Content / Sidebar</a></li>
+              <li><a href="#!" class="waves-effect">Sidebar / Content</a></li>
+              <li><a href="#!" class="waves-effect">Full-Width</a></li>
             </ul>
-          <li><a href="#">Colors</a></li>
+          <li><a class="subheader">COLORS</a></li>
           <li class="divider"></li>
-            <ul class="colors-content">
-              <li><a href="#!">Light Theme</a></li>
-              <li><a href="#!">Dark Theme</a></li>
-              <li><a href="#!">Color Pop Theme</a></li>
+            <ul class="sidenav-content">
+              <li><a href="#!" class="waves-effect">Light Theme</a></li>
+              <li><a href="#!" class="waves-effect">Dark Theme</a></li>
+              <li><a href="#!" class="waves-effect">Color Pop Theme</a></li>
             </ul>
         </ul>
       </div>
     </nav>
     <header>
       <div class="parallax-container">
-        <div class="parallax"><img src="img/parallax-ocean.jpg"></div>
+        <div class="parallax">
+          <img src="img/parallax-ocean.jpg">
+        </div>
+        <div class="parallax1 container">
+          <h2>Little <br> Layout <br> Library</h2>
+          <p>Modern Portfolio Layout <br> for Agencies & Freelancers</p>
+        </div>
       </div>
     </header>
     <section>
       <div class="container article-area">
-        <h1>Fancy Words</h1>
-        <h2>Fancy Subtitles</h2>
+        <h3>Building The Modern Portfolio.</h3>
+        <h4>A minimalist approach to designing a website.</h4>
+        <div class="line"></div>
         <div class="card-area row">
           <div class="col s12 m4">
             <div class="article article1">
-              <h4>Card Title</h4>
+              <h4><i class="fas fa-pencil-alt"></i></h4>
+              <h4>Design</h4>
               <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a class="waves-effect black btn">Read More</a>
+              <a class="waves-effect btn">Read More</a>
             </div>
           </div>
           <div class="col s12 m4">
             <div class="article article2">
-              <h4>Card Title</h4>
+            <h4><i class="fas fa-copy"></i></h4>
+            <h4>Content</h4>
             <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="waves-effect black btn">Read More</a>
+            <a class="waves-effect btn">Read More</a>
             </div>
           </div>
           <div class="col s12 m4">
             <div class="article article3">
-              <h4>Card Title</h4>
+              <h4><i class="fas fa-th-large"></i></h4>
+              <h4>Layouts</h4>
               <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a class="waves-effect black btn">Read More</a>
+              <a class="waves-effect btn">Read More</a>
             </div>
           </div>
         </div>
@@ -90,10 +104,36 @@
     <section>
       <div class="parallax-container">
         <div class="parallax"><img src="img/parallax-pattern-copy.jpg"></div>
+        <div class="parallax2">
+          <h2>Our Happy Clients</h2>
+          <h3>Loving Lots Of Layouty Layouts</h3>
+          <div class="p2-list">
+            <p class="font1">Layout</p>
+            <p class="font2">Layout</p>
+            <p class="font3">Layout</p>
+            <p class="font4">Layout</p>
+          </div>
+        </div>
       </div>
     </section>
     <section>
       <div class="gallery row">
+        <div class="gallery-header">
+          <h4>It’s a Little Layout Library!</h4>
+          <br>
+          <div class="gal-line">
+
+          </div>
+          <h4>Our Works</h4>
+        </div>
+        <div class="gallery-nav">
+          <ul>
+            <li>ALL</li>
+            <li>DESIGNS</li>
+            <li>LAYOUTS</li>
+            <li>CAT PICS</li>
+          </ul>
+        </div>
         <div class="col s12 l6 gall-col">
           <div class="gal-item item1">
             <div class="gal-img img1">
@@ -151,9 +191,21 @@
     <section>
       <div class="parallax-container">
         <div class="parallax"><img src="img/parallax-leaf.jpg"></div>
+        <div class="parallax3 row">
+          <div class="p3-left col s12 m6">
+            <h4>Join Our Newsletter</h4>
+          </div>
+          <div class="p3-right col s12 l6">
+            <div class="input-field white-text">
+              <input id="email" type="email">
+              <label for="email" class="color">Email</label>
+            </div>
+            <button type="submit" name="button">>>></button>
+          </div>
+        </div>
       </div>
     </section>
-    <footer class="page-footer">
+    <footer class="page-footer container">
       <div class="footer-container">
          <div class="row">
            <div class="col l6 s12">

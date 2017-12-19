@@ -1,3 +1,13 @@
+body {
+  --light: white;
+  --dark: black;
+  --text: var(--dark);
+  --background: var(--light); }
+
+.nightmode {
+  --text: var(--light);
+  --background: var(--dark); }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6852,6 +6862,24 @@ html {
 *::after {
   box-sizing: inherit; }
 
+body {
+  background-color: var(--background); }
+
+body {
+  font-family: 'Hind', "Roboto", cursive; }
+
+.font1 {
+  font-family: 'Lobster', cursive; }
+
+.font2 {
+  font-family: 'Pacifico', cursive; }
+
+.font3 {
+  font-family: 'Berkshire Swash', cursive; }
+
+.font4 {
+  font-family: 'Permanent Marker', cursive; }
+
 /**
  * Clear inner floats
  */
@@ -6894,13 +6922,88 @@ html {
   width: 1px; }
 
 .nav-wrapper {
-  background-color: #000;
-  color: #fff; }
+  background-color: var(--background);
+  color: var(--text); }
+  .nav-wrapper .brand-logo {
+    color: var(--text);
+    margin-left: 10px; }
+  .nav-wrapper .nav-item {
+    color: var(--text);
+    margin-right: 20px; }
+  .nav-wrapper .dropdown-content li > a {
+    color: #000; }
+  .nav-wrapper .subheader {
+    margin: 1em 0; }
+
+.parallax1 {
+  width: 80%;
+  opacity: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em; }
+  .parallax1 h2 {
+    margin: 0px;
+    font-size: 5em; }
+  .parallax1 p {
+    margin-left: 5em; }
+  .parallax1 p:before {
+    content: "";
+    position: relative;
+    top: 24em;
+    left: 8.5em;
+    width: 50px;
+    height: 1px;
+    background-color: white; }
+
+.parallax2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5em;
+  margin-top: 5em; }
+  .parallax2 h2 {
+    margin: 0px; }
+  .parallax2 .p2-list {
+    display: flex;
+    font-size: 3em; }
+    .parallax2 .p2-list p {
+      margin: 1em; }
+      .parallax2 .p2-list p:hover {
+        color: #cccccc;
+        cursor: pointer; }
+
+.parallax3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5em;
+  margin-top: 15em; }
+  .parallax3 h4 {
+    margin: 0px; }
+  .parallax3 .p3-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end; }
+  .parallax3 .p3-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start; }
+    .parallax3 .p3-right button {
+      background-color: transparent;
+      border: 0; }
+    .parallax3 .p3-right label .color {
+      color: white; }
 
 .page-footer {
   background-color: #fff; }
   .page-footer p, .page-footer h5 {
-    color: #000; }
+    color: var(--text); }
   .page-footer .footer-container {
     height: 225px;
     margin-top: 100px;
@@ -6929,12 +7032,50 @@ html {
     height: 1px; }
 
 .btn, .btn-large {
-  margin-top: 2em; }
+  margin-top: 2em;
+  background-color: var(--text);
+  color: var(--background); }
+
+.blog-area {
+  margin: 80px auto;
+  line-height: 1.875; }
+  .blog-area h5.title {
+    font-size: 20px;
+    font-weight: 500; }
+  .blog-area .blog {
+    margin: 8em auto; }
+  .blog-area h2 {
+    font-weight: 200; }
+  .blog-area p {
+    font-size: 18px;
+    font-weight: 100; }
+    .blog-area p.author {
+      font-size: 16px; }
+    .blog-area p.blog-intro {
+      font-weight: 600;
+      font-style: italic; }
+  .blog-area span {
+    border-bottom: 1px solid #000;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 2.5%; }
+  .blog-area .card {
+    margin-top: 40px; }
+
+.article-area {
+  margin-top: 5em;
+  color: var(--text); }
+  .article-area .line {
+    height: 1px;
+    width: 50px;
+    margin: 50px 0px 1em;
+    background-color: var(--text); }
 
 .card-area {
   display: flex;
   justify-content: space-around;
-  margin-top: 10em;
+  margin-top: 5em;
   margin-bottom: 10em; }
 
 .article {
@@ -6944,7 +7085,28 @@ html {
 
 .gallery {
   width: 65%;
-  margin: 2em auto; }
+  margin: 2em auto;
+  color: var(--text); }
+
+.gallery-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5em 0; }
+
+.gal-line {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-left: 1px solid lightgrey; }
+
+.gallery-nav ul {
+  display: flex; }
+  .gallery-nav ul li {
+    margin: 0 1em; }
+    .gallery-nav ul li:hover {
+      text-decoration: underline; }
 
 .gall-col {
   height: 110vh;
@@ -7021,5 +7183,12 @@ html {
 
 .img6 {
   background-image: url(../img/gal-6.jpg); }
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%; }
+
+  .item1, .item6 {
+    flex-grow: 1; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,37 @@
+.blog-area {
+  margin: 80px auto;
+  line-height: 1.875;
+  h5.title {
+    font-size: 20px;
+    // margin-bottom: 5em;
+    font-weight: 500;
+  }
+  .blog {
+    margin: 8em auto;
+  }
+  h2 {
+    font-weight: 200;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 100;
+    &.author {
+      font-size: 16px;
+
+    }
+    &.blog-intro {
+      font-weight: 600;
+      font-style: italic;
+    }
+  }
+  span {
+    border-bottom: 1px solid #000;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 2.5%;
+  }
+  .card {
+    margin-top: 40px;
+  }
+}

@@ -1,10 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.article-area{
+  margin-top: 5em;
+  .line {
+    @include line;
+    background-color: var(--text);
+  }
+  color: var(--text);
+}
+
 .card-area{
   display: flex;
   justify-content: space-around;
-  margin-top: 10em;
+  margin-top: 5em;
   margin-bottom: 10em;
 }
 
@@ -16,7 +25,36 @@
 .gallery{
   width: 65%;
   margin: 2em auto;
+  color: var(--text);
 }
+.gallery-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5em 0;
+}
+
+.gal-line{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-left: 1px solid lightgrey;
+}
+
+.gallery-nav ul{
+  display: flex;
+  li {
+    margin: 0 1em;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+
 .gall-col{
   height: 110vh;
   display: flex;
@@ -29,11 +67,13 @@
   width: 100%;
   height: auto;
   margin-bottom: 2em;
+
 }
 .item1, .item6{
   flex-grow: 2;
 }
 .gal-img {
+  // opacity: 0;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -105,4 +145,14 @@
 }
 .img6 {
   background-image: url(../img/gal-6.jpg);
+}
+
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+  }
+  .item1, .item6{
+    flex-grow: 1;
+  }
 }
