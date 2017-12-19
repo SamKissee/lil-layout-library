@@ -3,8 +3,8 @@
   line-height: 1.875;
   h5.title {
     font-size: 20px;
-    margin-bottom: 5em;
-    font-weight: 600;
+    // margin-bottom: 5em;
+    font-weight: 500;
   }
   .blog {
     margin: 8em auto;
@@ -20,15 +20,18 @@
 
     }
     &.blog-intro {
-      font-weight: bold;
+      font-weight: 600;
       font-style: italic;
     }
   }
   span {
     border-bottom: 1px solid #000;
     display: block;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     width: 2.5%;
+  }
+  .card {
+    margin-top: 40px;
   }
 }

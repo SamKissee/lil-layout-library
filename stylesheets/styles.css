@@ -6856,7 +6856,7 @@ body {
   background-color: white; }
 
 body {
-  font-family: "Hind", cursive; }
+  font-family: 'Hind', "Roboto", cursive; }
 
 .font1 {
   font-family: 'Lobster', cursive; }
@@ -7009,8 +7009,7 @@ body {
   line-height: 1.875; }
   .blog-area h5.title {
     font-size: 20px;
-    margin-bottom: 5em;
-    font-weight: 600; }
+    font-weight: 500; }
   .blog-area .blog {
     margin: 8em auto; }
   .blog-area h2 {
@@ -7021,14 +7020,16 @@ body {
     .blog-area p.author {
       font-size: 16px; }
     .blog-area p.blog-intro {
-      font-weight: bold;
+      font-weight: 600;
       font-style: italic; }
   .blog-area span {
     border-bottom: 1px solid #000;
     display: block;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     width: 2.5%; }
+  .blog-area .card {
+    margin-top: 40px; }
 
 .article-area {
   margin-top: 5em;
