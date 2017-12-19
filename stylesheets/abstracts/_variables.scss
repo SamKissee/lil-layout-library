@@ -1,10 +1,20 @@
+body{
+--light: white;
+--dark: black;
+--text: var(--dark);
+--background: var(--light);
+}
 
 
-$text: black;
-$background: white; 
+@mixin dark {
+  --text: --light;
+  --background: --dark;
+}
+.nightmode {
+  --text: var(--light);
+  --background: var(--dark);
 
-
-
+}
 
 
 /// Container's maximum width

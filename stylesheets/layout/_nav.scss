@@ -1,6 +1,6 @@
 .nav-wrapper {
-  background-color: $text;
-  color: $background;
+  background-color: var(--text);
+  color: var(--background);
   .brand-logo {
     margin-left: 10px;
   }

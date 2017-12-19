@@ -5,9 +5,9 @@
   margin-top: 5em;
   .line {
     @include line;
-    background-color: $text;
+    background-color: var(--text);
   }
-  color: $text;
+  color: var(--text);
 }
 
 .card-area{
@@ -25,7 +25,7 @@
 .gallery{
   width: 65%;
   margin: 2em auto;
-  color: $text;
+  color: var(--text);
 }
 .gallery-header{
   display: flex;
