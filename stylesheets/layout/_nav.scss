@@ -1,6 +1,15 @@
 .nav-wrapper {
   background-color: #000;
   color: #fff;
+  .brand-logo {
+    margin-left: 10px;
+  }
+  .nav-item {
+    margin-right: 20px;
+  }
+  .dropdown-content li > a {
+    color: #000;
+  }
   .subheader {
     margin: 1em 0;
   }
