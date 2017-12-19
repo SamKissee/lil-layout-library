@@ -10,6 +10,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/bin/materialize.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -23,20 +24,19 @@
         <li class="divider"></li>
         <li><a href="#!">Full-Width</a></li>
       </ul>
-      <ul id="dropdown-colors" class="dropdown-content">
+      <!-- <ul id="dropdown-colors" class="dropdown-content">
         <li class="toggle">Toggle Light/Dark Theme</li>
         <li><a href="#!">Light Theme</a></li>
         <li class="divider"></li>
         <li><a href="#!">Dark Theme</a></li>
         <li class="divider"></li>
         <li><a href="#!">Color Pop Theme</a></li>
-      </ul>
+      </ul> -->
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo">Ll.</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a class="nav-item dropdown-button" href="#!" data-activates="dropdown-layouts">Layouts<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="nav-item dropdown-button" href="#!" data-activates="dropdown-colors">Colors<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a class="subheader">LAYOUTS</a></li>
@@ -119,6 +119,16 @@
       <div class="gallery row">
         <div class="gallery-header">
           <h4>It’s a Little Layout Library!</h4>
+          <br>
+          <h5>Layouts Come With Two Modes</h5>
+          <div class="switch">
+              <label>
+                Light Mode
+                <input type="checkbox">
+                <span class="lever"></span>
+                Dark Mode
+              </label>
+          </div>
           <br>
           <div class="gal-line">
 
@@ -221,10 +231,19 @@
            </div>
          </div>
        </div>
+       <div class="footer-line-con">
+         <div class="footer-line"></div>
+       </div>
        <div class="footer-copyright">
          <div class="copyright-container">
-         <p>© 2014 Copyright Text</p>
-         </div>
+           <p>© 2018 Lil Layout Library</p>
+           <div class="footer-icons">
+             <i class="fa fa-twitter" aria-hidden="true"></i>
+             <i class="fa fa-facebook" aria-hidden="true"></i>
+             <i class="fa fa-instagram" aria-hidden="true"></i>
+
+           </div>
+        </div>
        </div>
     </footer>
   </body>
