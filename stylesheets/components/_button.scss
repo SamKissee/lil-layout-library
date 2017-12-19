@@ -3,6 +3,6 @@
 // -----------------------------------------------------------------------------
 .btn {
   margin-top: 2em;
-  background-color: $text;
-  color: $background;
+  background-color: var(--text);
+  color: var(--background);
 }

@@ -22,7 +22,7 @@ html {
 }
 
 body{
-  background-color: $background;
+  background-color: var(--background);
 }
 // *:not(body):not(html) {
 //   box-sizing:border-box;

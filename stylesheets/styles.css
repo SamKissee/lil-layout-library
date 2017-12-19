@@ -1,3 +1,13 @@
+body {
+  --light: white;
+  --dark: black;
+  --text: var(--dark);
+  --background: var(--light); }
+
+.nightmode {
+  --text: var(--light);
+  --background: var(--dark); }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6853,7 +6863,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: white; }
+  background-color: var(--background); }
 
 body {
   font-family: 'Hind', "Roboto", cursive; }
@@ -6912,11 +6922,13 @@ body {
   width: 1px; }
 
 .nav-wrapper {
-  background-color: black;
-  color: white; }
+  background-color: var(--background);
+  color: var(--text); }
   .nav-wrapper .brand-logo {
+    color: var(--text);
     margin-left: 10px; }
   .nav-wrapper .nav-item {
+    color: var(--text);
     margin-right: 20px; }
   .nav-wrapper .dropdown-content li > a {
     color: #000; }
@@ -6991,7 +7003,7 @@ body {
 .page-footer {
   background-color: #fff; }
   .page-footer p, .page-footer h5 {
-    color: black; }
+    color: var(--text); }
   .page-footer .footer-container {
     height: 225px;
     margin-top: 100px; }
@@ -7001,8 +7013,8 @@ body {
 
 .btn, .btn-large {
   margin-top: 2em;
-  background-color: black;
-  color: white; }
+  background-color: var(--text);
+  color: var(--background); }
 
 .blog-area {
   margin: 80px auto;
@@ -7033,12 +7045,12 @@ body {
 
 .article-area {
   margin-top: 5em;
-  color: black; }
+  color: var(--text); }
   .article-area .line {
     height: 1px;
     width: 50px;
     margin: 50px 0px 1em;
-    background-color: black; }
+    background-color: var(--text); }
 
 .card-area {
   display: flex;
@@ -7054,7 +7066,7 @@ body {
 .gallery {
   width: 65%;
   margin: 2em auto;
-  color: black; }
+  color: var(--text); }
 
 .gallery-header {
   display: flex;
