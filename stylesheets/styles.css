@@ -7042,6 +7042,13 @@ body {
     width: 2.5%; }
   .blog-area .card {
     margin-top: 40px; }
+    .blog-area .card .card1 {
+      background-image: url(../img/cactus.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 2px 2px 0 0;
+      height: 175px;
+      width: 100%; }
 
 .article-area {
   margin-top: 5em;

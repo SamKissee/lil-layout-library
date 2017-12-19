@@ -33,5 +33,13 @@
   }
   .card {
     margin-top: 40px;
+    .card1 {
+      background-image: url(../img/cactus.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 2px 2px 0 0;
+      height: 175px;
+      width: 100%;
+    }
   }
 }
