@@ -6900,13 +6900,25 @@ html {
     margin: 1em 0; }
 
 .parallax1 {
+  opacity: 0;
   color: white;
   display: flex;
   flex-direction: column;
   margin-left: 5em;
   margin-top: 5em; }
   .parallax1 h2 {
-    margin: 0px; }
+    margin: 0px;
+    font-size: 5em; }
+  .parallax1 p {
+    margin-left: 5em; }
+  .parallax1 p:before {
+    content: "";
+    position: absolute;
+    top: 24em;
+    left: 5.5em;
+    width: 50px;
+    height: 1px;
+    background-color: white; }
 
 .parallax2 {
   color: white;
@@ -6975,6 +6987,26 @@ html {
 .gallery {
   width: 65%;
   margin: 2em auto; }
+
+.gallery-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5em 0; }
+
+.gal-line {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-left: 1px solid lightgrey; }
+
+.gallery-nav ul {
+  display: flex; }
+  .gallery-nav ul li {
+    margin: 0 1em; }
+    .gallery-nav ul li:hover {
+      text-decoration: underline; }
 
 .gall-col {
   height: 110vh;
