@@ -6896,6 +6896,12 @@ html {
 .nav-wrapper {
   background-color: #000;
   color: #fff; }
+  .nav-wrapper .brand-logo {
+    margin-left: 10px; }
+  .nav-wrapper .nav-item {
+    margin-right: 20px; }
+  .nav-wrapper .dropdown-content li > a {
+    color: #000; }
   .nav-wrapper .subheader {
     margin: 1em 0; }
 
