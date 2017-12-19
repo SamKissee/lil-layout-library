@@ -5,6 +5,15 @@
     color: var(--text);
     margin-left: 10px;
   }
+  .side-nav{
+    background-color: var(--background);
+    li a{
+      color: var(--text);
+    }
+  }
+  i {
+    color: var(--text)
+  }
   .nav-item {
     color: var(--text);
     margin-right: 20px;
