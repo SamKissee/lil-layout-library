@@ -7063,8 +7063,19 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     padding-bottom: 20px;
     width: 2.5%; }
+  .blog-area ul li.active {
+    background: black; }
   .blog-area .card {
     margin-top: 40px; }
+    .blog-area .card .card1 {
+      background-image: url(../img/cactus.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 2px 2px 0 0;
+      height: 175px;
+      width: 100%; }
+  .blog-area .search-area {
+    margin: 10vh auto; }
 
 .article-area {
   margin-top: 5em;
