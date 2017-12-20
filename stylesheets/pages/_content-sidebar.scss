@@ -1,4 +1,8 @@
+.switch{
+  margin-left: 20px;
+}
 .blog-area {
+  color: var(--text);
   margin: 80px auto;
   line-height: 1.875;
   h5.title {
@@ -25,7 +29,7 @@
     }
   }
   span {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--text);
     display: block;
     margin-bottom: 20px;
     padding-bottom: 20px;
