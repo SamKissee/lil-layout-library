@@ -3,11 +3,15 @@
   color: var(--text);
   .brand-logo{
     color: var(--text);
+    fill: var(--text);
     .logo{
       // color: var(--text);
-      fill: var(--text);
-      // background-image: url("../img/LL-04.svg");
-      margin-left: 10px;
+      // fill: var(--text);
+      background-image: var(--img);
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-left: 15px;
+      margin-top: 15px;
       height: 30px;
       width: 30px;
     }

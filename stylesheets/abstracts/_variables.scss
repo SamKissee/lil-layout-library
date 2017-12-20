@@ -3,6 +3,7 @@ body{
 --dark: black;
 --text: var(--dark);
 --background: var(--light);
+--img: url('../img/LL-04.png');
 }
 
 
@@ -13,6 +14,7 @@ body{
 .nightmode {
   --text: var(--light);
   --background: var(--dark);
+  --img: url('../img/LL-White.png');
 
 }
 

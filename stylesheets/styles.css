@@ -2,11 +2,13 @@ body {
   --light: white;
   --dark: black;
   --text: var(--dark);
-  --background: var(--light); }
+  --background: var(--light);
+  --img: url("../img/LL-04.png"); }
 
 .nightmode {
   --text: var(--light);
-  --background: var(--dark); }
+  --background: var(--dark);
+  --img: url("../img/LL-White.png"); }
 
 .materialize-red {
   background-color: #e51c23 !important; }
@@ -6928,10 +6930,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--background);
   color: var(--text); }
   .nav-wrapper .brand-logo {
-    color: var(--text); }
+    color: var(--text);
+    fill: var(--text); }
     .nav-wrapper .brand-logo .logo {
-      fill: var(--text);
-      margin-left: 10px;
+      background-image: var(--img);
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-left: 15px;
+      margin-top: 15px;
       height: 30px;
       width: 30px; }
   .nav-wrapper .side-nav {
