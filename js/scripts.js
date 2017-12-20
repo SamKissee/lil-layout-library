@@ -2,6 +2,8 @@ $(document).ready(function() {
   $('.parallax').parallax();
   $(".button-collapse").sideNav();
   $(".dropdown-button").dropdown();
+  $('#modal1').modal();
+  $('#modal2').modal();
   $(".lever").click(function(){
         $("body").toggleClass("nightmode");
     });

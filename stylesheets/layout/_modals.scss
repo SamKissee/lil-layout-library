@@ -1,0 +1,26 @@
+.modal {
+  max-height: 100%;
+}
+
+.screens{
+  display: flex;
+  justify-content: center;
+}
+.mobile{
+  width: 426px;
+  height: 784px;
+  iframe {
+    height: 667px;
+    width: 375px;
+  }
+}
+.tablet{
+  top: 1% !important;
+  overflow: visible;
+  width: 869px;
+  height: 1135px;
+  iframe {
+    height: 1024px;
+    width: 768px;
+  }
+}
