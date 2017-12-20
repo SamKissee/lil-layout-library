@@ -44,5 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to big Tuna - for being a great Epicodus instructor
-* Inspiration - Squarespace, Wix, Wordpress.
+* Hat tip to Big Tuna - for being a great Epicodus instructor
+* Inspiration - Themeforest & Wordpress.
