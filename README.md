@@ -32,7 +32,7 @@ Click on the toggle, the background will go from light to dark and the text will
 
 ## Authors
 
-* **Same Kissee** - [GitHub](https://github.com/samkisse)
+* **Sam Kissee** - [GitHub](https://github.com/samkisse)
 * **Ginger Lee Kretschmer** - [GitHub](https://github.com/gingerlee)
 * **Tyler Bussanich** - [GitHub](https://github.com/tbssnch)
 
@@ -44,5 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to big Tuna - for being a great Epicodus instructor
-* Inspiration - Squarespace, Wix, Wordpress.
+* Hat tip to Big Tuna - for being a great Epicodus instructor
+* Inspiration - Themeforest & Wordpress.
