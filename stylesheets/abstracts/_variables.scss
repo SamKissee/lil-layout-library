@@ -1,11 +1,12 @@
+$img1: url('../img/LL-04.png');
+$img2: url('../img/LL-White.png');
 body{
   --light: white;
   --dark: #131313fc;
   --text: var(--dark);
   --background: var(--light);
-  --img: url('../img/LL-04.png');
+  --img: $img1;
 }
-
 
 @mixin dark {
   --text: --light;
@@ -14,7 +15,7 @@ body{
 .nightmode {
   --text: var(--light);
   --background: var(--dark);
-  --img: url('../img/LL-White.png');
+  --img: $img2;
 
 }
 
