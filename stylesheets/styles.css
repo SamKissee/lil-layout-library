@@ -7093,6 +7093,7 @@ h1, h2, h3, h4, h5, h6 {
   .blog-area ul li.active {
     background: black; }
   .blog-area .card {
+    background-color: var(--background);
     margin-top: 40px; }
     .blog-area .card .card1 {
       background-image: url(../img/cactus.jpg);
@@ -7125,6 +7126,9 @@ h1, h2, h3, h4, h5, h6 {
 
   .row .col.l8 {
     width: 62.666667%; } }
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: var(--text); }
+
 .article-area {
   margin-top: 5em;
   color: var(--text); }

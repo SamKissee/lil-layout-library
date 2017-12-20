@@ -40,6 +40,7 @@
   }
 
   .card {
+    background-color: var(--background);
     margin-top: 40px;
     .card1 {
       background-image: url(../img/cactus.jpg);
@@ -82,4 +83,8 @@
   .row .col.l8 {
     width: 62.666667%;
   }
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+  color: var(--text);
 }
