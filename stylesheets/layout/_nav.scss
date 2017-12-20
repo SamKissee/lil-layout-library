@@ -1,9 +1,16 @@
 .nav-wrapper {
   background-color: var(--background);
   color: var(--text);
-  .brand-logo {
+  .brand-logo{
     color: var(--text);
-    margin-left: 10px;
+    .logo{
+      // color: var(--text);
+      fill: var(--text);
+      // background-image: url("../img/LL-04.svg");
+      margin-left: 10px;
+      height: 30px;
+      width: 30px;
+    }
   }
   .side-nav{
     background-color: var(--background);

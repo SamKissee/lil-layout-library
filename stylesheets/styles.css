@@ -6928,8 +6928,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--background);
   color: var(--text); }
   .nav-wrapper .brand-logo {
-    color: var(--text);
-    margin-left: 10px; }
+    color: var(--text); }
+    .nav-wrapper .brand-logo .logo {
+      fill: var(--text);
+      margin-left: 10px;
+      height: 30px;
+      width: 30px; }
   .nav-wrapper .side-nav {
     background-color: var(--background); }
     .nav-wrapper .side-nav li a {
