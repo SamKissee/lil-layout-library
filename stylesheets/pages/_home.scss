@@ -121,7 +121,7 @@
   &:hover{
     animation: content .5s ease-in-out forwards;
   }
-  &:hover p, &:hover h3{
+  &:hover p, &:hover h4{
     animation: text .7s ease-in-out forwards;
   }
   @keyframes content {

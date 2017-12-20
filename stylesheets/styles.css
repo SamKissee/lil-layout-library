@@ -7267,7 +7267,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 3em; }
   .gal-content:hover {
     animation: content .5s ease-in-out forwards; }
-  .gal-content:hover p, .gal-content:hover h3 {
+  .gal-content:hover p, .gal-content:hover h4 {
     animation: text .7s ease-in-out forwards; }
 @keyframes content {
   0% {
