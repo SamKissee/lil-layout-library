@@ -16,6 +16,7 @@
 
 .card-area{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 5em;
   margin-bottom: 10em;
@@ -167,5 +168,11 @@ i.email:hover {
   }
   .item1, .item6{
     flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .article {
+    margin: 5em auto;
   }
 }
