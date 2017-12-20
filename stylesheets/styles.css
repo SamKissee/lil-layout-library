@@ -6985,7 +6985,8 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5em; }
+  margin-top: 5em;
+  text-align: center; }
   .parallax2 h2 {
     margin: 0px; }
   .parallax2 .p2-list {
@@ -6995,7 +6996,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     font-size: 2.5em; }
     .parallax2 .p2-list p {
-      margin: 1em; }
+      margin: .5em; }
       .parallax2 .p2-list p:hover {
         color: #cccccc;
         cursor: pointer; }
@@ -7050,6 +7051,12 @@ h1, h2, h3, h4, h5, h6 {
   .tablet iframe {
     height: 1024px;
     width: 768px; }
+
+.sticky {
+  position: fixed;
+  z-index: 1000;
+  bottom: 0em;
+  margin: 0 auto; }
 
 .page-footer {
   opacity: 0;
@@ -7179,7 +7186,13 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
+  .article:hover h4 {
+    animation: color .25s ease-in-out forwards; }
+@keyframes color {
+  0% {
+    color: var(--text); }
+  100% {
+    color: #26a69a; } }
 .gallery {
   width: 65%;
   margin: 2em auto;
