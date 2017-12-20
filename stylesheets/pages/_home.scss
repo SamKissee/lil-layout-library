@@ -98,7 +98,7 @@
   background-color: #0000005e;
   color: white;
   opacity: 0;
-  h3 {
+  h4 {
     margin-left: 40px;
   }
   p {
@@ -153,6 +153,22 @@
 }
 i.email:hover {
   opacity: .5;
+}
+
+.contact-bar {
+  background: linear-gradient(to right, #45484d 0%,#000000 100%);
+  color: #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  h5 {
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: lighter;
+  }
 }
 
 @media (max-width: 992px) {

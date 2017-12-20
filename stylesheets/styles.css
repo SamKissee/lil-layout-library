@@ -6987,7 +6987,10 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   margin-top: 5em; }
   .parallax2 h2 {
-    margin: 0px; }
+    margin: 0px;
+    font-family: "Roboto"; }
+  .parallax2 h5 {
+    font-weight: 100; }
   .parallax2 .p2-list {
     display: flex;
     justify-content: center;
@@ -7244,7 +7247,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0000005e;
   color: white;
   opacity: 0; }
-  .gal-content h3 {
+  .gal-content h4 {
     margin-left: 40px; }
   .gal-content p {
     margin-left: 40px;
@@ -7288,6 +7291,20 @@ h1, h2, h3, h4, h5, h6 {
 
 i.email:hover {
   opacity: .5; }
+
+.contact-bar {
+  background: linear-gradient(to right, #45484d 0%, #000000 100%);
+  color: #fff;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .contact-bar h5 {
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: lighter; }
 
 @media (max-width: 992px) {
   .gallery {
