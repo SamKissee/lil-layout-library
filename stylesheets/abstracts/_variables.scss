@@ -1,11 +1,10 @@
-$img1: url('../img/LL-04.png');
-$img2: url('../img/LL-White.png');
+
 body{
   --light: white;
   --dark: #131313fc;
   --text: var(--dark);
   --background: var(--light);
-  --img: $img1;
+
 }
 
 @mixin dark {
@@ -15,8 +14,14 @@ body{
 .nightmode {
   --text: var(--light);
   --background: var(--dark);
-  --img: $img2;
+  .nav-wrapper{
+    .brand-logo{
+      .logo{
+        background-image: url('../img/LL-White.png');
+      }
 
+    }
+  }
 }
 
 
