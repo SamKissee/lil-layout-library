@@ -21,22 +21,22 @@ $(document).ready(function() {
    {selector: '.gallery-header', offset: 200, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
-   {selector: '.img1', offset: 300, callback: function(el) {
+   {selector: '.item1', offset: 300, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
-   {selector: '.img2', offset: 300, callback: function(el) {
+   {selector: '.item2', offset: 300, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
-   {selector: '.img3', offset: 300, callback: function(el) {
+   {selector: '.item3', offset: 300, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
-   {selector: '.img4', offset: 300, callback: function(el) {
+   {selector: '.item4', offset: 300, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
-   {selector: '.img5', offset: 300, callback: function(el) {
+   {selector: '.item5', offset: 300, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
-   {selector: '.img6', offset: 300, callback: function(el) {
+   {selector: '.item6', offset: 300, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
    {selector: '.parallax3', offset: 200, callback: function(el) {
