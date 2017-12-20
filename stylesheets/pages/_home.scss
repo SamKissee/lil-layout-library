@@ -3,6 +3,9 @@
 // -----------------------------------------------------------------------------
 .article-area{
   margin-top: 5em;
+  h6 {
+    font-size: 1.2rem;
+  }
   .line {
     @include line;
     background-color: var(--text);
