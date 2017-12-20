@@ -1,0 +1,12 @@
+.screens{
+  display: flex;
+  justify-content: center;
+}
+.mobile{
+  width: 426px;
+  height: 784px;
+  iframe {
+    height: 667px;
+    width: 375px;
+  }
+}
