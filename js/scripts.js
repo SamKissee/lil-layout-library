@@ -43,6 +43,9 @@ $(document).ready(function() {
    {selector: '.page-footer', offset: 200, callback: function(el) {
          Materialize.fadeInImage($(el));
        } },
+   {selector: '.blog-area', offset: 200, callback: function(el) {
+         Materialize.fadeInImage($(el));
+       } },
  ];
  Materialize.scrollFire(options);
 

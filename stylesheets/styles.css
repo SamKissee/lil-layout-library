@@ -7029,6 +7029,7 @@ h1, h2, h3, h4, h5, h6 {
       color: white; }
 
 .page-footer {
+  opacity: 0;
   background-color: var(--background); }
   .page-footer p, .page-footer h5 {
     color: var(--text); }
@@ -7068,6 +7069,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 20px; }
 
 .blog-area {
+  opacity: 0;
   color: var(--text);
   margin: 80px auto;
   line-height: 1.875; }
