@@ -1,6 +1,6 @@
 body {
   --light: white;
-  --dark: black;
+  --dark: #131313fc;
   --text: var(--dark);
   --background: var(--light);
   --img: url("../img/LL-04.png"); }
@@ -6983,14 +6983,15 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 5em;
   margin-top: 5em; }
   .parallax2 h2 {
     margin: 0px; }
   .parallax2 .p2-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    font-size: 3em; }
+    font-size: 2.5em; }
     .parallax2 .p2-list p {
       margin: 1em; }
       .parallax2 .p2-list p:hover {
