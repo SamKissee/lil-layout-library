@@ -32,7 +32,7 @@ Click on the toggle, the background will go from light to dark and the text will
 
 ## Authors
 
-* **Same Kissee** - [GitHub](https://github.com/samkisse)
+* **Sam Kissee** - [GitHub](https://github.com/samkisse)
 * **Ginger Lee Kretschmer** - [GitHub](https://github.com/gingerlee)
 * **Tyler Bussanich** - [GitHub](https://github.com/tbssnch)
 
