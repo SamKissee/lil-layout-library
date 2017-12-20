@@ -7055,7 +7055,7 @@ h1, h2, h3, h4, h5, h6 {
     .blog-area p.author {
       font-size: 16px; }
     .blog-area p.blog-intro {
-      font-weight: 600;
+      font-weight: 400;
       font-style: italic; }
   .blog-area span {
     border-bottom: 1px solid #000;
@@ -7074,8 +7074,15 @@ h1, h2, h3, h4, h5, h6 {
       border-radius: 2px 2px 0 0;
       height: 175px;
       width: 100%; }
+    .blog-area .card .card-action a {
+      font-size: 12px; }
+      .blog-area .card .card-action a:hover {
+        color: #26a69a; }
   .blog-area .search-area {
     margin: 10vh auto; }
+  .blog-area .fab {
+    font-size: 2em;
+    letter-spacing: 1.3; }
 
 @media screen and (max-width: 991px) {
   .col-order {

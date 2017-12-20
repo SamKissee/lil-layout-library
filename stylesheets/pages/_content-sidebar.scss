@@ -20,7 +20,7 @@
 
     }
     &.blog-intro {
-      font-weight: 600;
+      font-weight: 400;
       font-style: italic;
     }
   }
@@ -45,9 +45,19 @@
       height: 175px;
       width: 100%;
     }
+    .card-action a {
+      font-size: 12px;
+      &:hover {
+      color: #26a69a;
+      }
+    }
   }
   .search-area {
   margin: 10vh auto;
+  }
+  .fab {
+    font-size: 2em;
+    letter-spacing: 1.3;
   }
 }
 
