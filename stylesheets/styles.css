@@ -7028,6 +7028,9 @@ h1, h2, h3, h4, h5, h6 {
     .parallax3 .p3-right label .color {
       color: white; }
 
+.modal {
+  max-height: 100%; }
+
 .screens {
   display: flex;
   justify-content: center; }
@@ -7038,6 +7041,15 @@ h1, h2, h3, h4, h5, h6 {
   .mobile iframe {
     height: 667px;
     width: 375px; }
+
+.tablet {
+  top: 1% !important;
+  overflow: visible;
+  width: 869px;
+  height: 1135px; }
+  .tablet iframe {
+    height: 1024px;
+    width: 768px; }
 
 .page-footer {
   opacity: 0;
