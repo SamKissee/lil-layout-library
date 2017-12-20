@@ -3,6 +3,7 @@
 // -----------------------------------------------------------------------------
 .article-area{
   margin-top: 5em;
+  opacity: 0;
   h6 {
     font-size: 1.2rem;
   }
@@ -31,6 +32,7 @@
   color: var(--text);
 }
 .gallery-header{
+  opacity: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +48,7 @@
 }
 
 .gallery-nav ul{
+
   display: flex;
   li {
     margin: 0 1em;
@@ -132,22 +135,27 @@
 }
 .img1 {
   background-image: url(../img/gal-1.jpg);
-
+  opacity: 0;
 }
 .img2 {
   background-image: url(../img/gal-2.jpg);
+  opacity: 0;
 }
 .img3 {
   background-image: url(../img/gal-3.jpg);
+  opacity: 0;
 }
 .img4 {
   background-image: url(../img/gal-4.jpg);
+  opacity: 0;
 }
 .img5 {
   background-image: url(../img/gal-5.jpg);
+  opacity: 0;
 }
 .img6 {
   background-image: url(../img/gal-6.jpg);
+  opacity: 0;
 }
 i.email:hover {
   opacity: .5;
