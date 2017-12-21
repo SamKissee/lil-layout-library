@@ -52,9 +52,18 @@
     font-size: 1.5em;
     p {
       margin: 1.5em;
-      &:hover {
-        color: darken(white, 20%);
+      &:hover{
+        // color: #009688;
+        animation: color1 .25s ease-in-out forwards;
         cursor: pointer;
+        @keyframes color1 {
+          0%{
+            color: white;
+          }
+          100%{
+            color: darken(white, 20%);
+          }
+        }
       }
     }
   }
