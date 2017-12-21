@@ -1,5 +1,6 @@
 .modal {
   max-height: 100%;
+  overflow-y: visible;
 }
 
 .screens{
@@ -10,18 +11,35 @@
   width: 426px;
   height: 784px;
   iframe {
+    position: relative;
     height: 667px;
     width: 375px;
   }
+  &:before{
+    content: url("../img/mobile.png");
+    position: absolute;
+    top: -110px;
+    left: -20px;
+    overflow-y: visible;
+  }
 }
 .tablet{
-  top: 1% !important;
+  top: 3% !important;
   overflow: visible;
-  width: 869px;
-  height: 1135px;
+  width: 853px;
+  height: 1122px;
+
   iframe {
+    position: relative;
     height: 1024px;
     width: 768px;
+  }
+  &:before{
+    content: url("../img/tablet.png");
+    position: absolute;
+    top: -48px;
+    left: -57px;
+    overflow-y: visible;
   }
 }
 .sticky {
