@@ -1,0 +1,18 @@
+.contact-us {
+  height: 45vh;
+  background-color: #42c4ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  h2 {
+    font-family: "Roboto";
+    font-weight: 100;
+  }
+  a {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: none;
+  }
+}
