@@ -10,8 +10,17 @@
   }
   .footer-container {
     height: 225px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+  }
+  .footer-logo {
+    background-image: url('../img/LL-04.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    // margin-left: 15px;
+    margin-top: 15px;
+    height: 70px;
+    width: 70px;
   }
   .footer-copyright {
     background-color: var(--background);
