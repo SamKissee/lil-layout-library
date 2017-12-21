@@ -37,23 +37,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5em;
+  margin-top: 10em;
   text-align: center;
-  h2{
+  h3{
     margin: 0px;
     font-family: "Roboto";
+    font-weight: lighter;
     }
-  h5 {
-    font-weight: 100;
-  }
   .p2-list{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 2.5em;
+    font-size: 1.5em;
     p {
-      margin: .5em;
+      margin: 1.5em;
       &:hover {
         color: darken(white, 20%);
         cursor: pointer;
@@ -61,6 +59,7 @@
     }
   }
 }
+
 .parallax3 {
   color: white;
   opacity: 0;
