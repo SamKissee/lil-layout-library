@@ -6987,10 +6987,10 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   margin-top: 10em;
   text-align: center; }
-  .parallax2 h3 {
+  .parallax2 h2 {
     margin: 0px;
     font-family: "Roboto";
-    font-weight: lighter; }
+    font-weight: 100; }
   .parallax2 .p2-list {
     display: flex;
     justify-content: center;
@@ -7015,7 +7015,9 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   margin-top: 15em; }
-  .parallax3 h4 {
+  .parallax3 h3 {
+    font-family: "Roboto";
+    font-weight: 100;
     margin: 0px; }
   .parallax3 .p3-left {
     display: flex;
@@ -7038,9 +7040,9 @@ h1, h2, h3, h4, h5, h6 {
 .contact-us {
   color: white; }
   .contact-us .parallax-container {
-    height: 75vh; }
+    height: 45vh; }
   .contact-us form {
-    margin-top: 20vh; }
+    margin-top: 7vh; }
   .contact-us h2 {
     font-family: "Roboto";
     font-weight: 100; }
@@ -7350,7 +7352,7 @@ i.email:hover {
 .learn-more-bar {
   background: linear-gradient(to right, #45484d 0%, #000000 100%);
   color: #fff;
-  height: 15vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;

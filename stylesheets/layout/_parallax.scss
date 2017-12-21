@@ -39,10 +39,10 @@
   justify-content: center;
   margin-top: 10em;
   text-align: center;
-  h3{
+  h2{
     margin: 0px;
     font-family: "Roboto";
-    font-weight: lighter;
+    font-weight: 100;
     }
   .p2-list{
     display: flex;
@@ -71,13 +71,16 @@
 
 .parallax3 {
   color: white;
+
   opacity: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 15em;
-  h4{
+  h3{
+    font-family: "Roboto";
+    font-weight: 100;
     margin: 0px;  }
   .p3-left{
     display: flex;
