@@ -7047,7 +7047,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 667px;
     width: 375px; }
   .mobile:before {
-    content: url("../img/mobile.png");
+    content: url("../img/mobile1.png");
     position: absolute;
     top: -110px;
     left: -20px;
@@ -7062,6 +7062,8 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     height: 1024px;
     width: 768px; }
+  .tablet .modal-footer {
+    height: 42px; }
   .tablet:before {
     content: url("../img/tablet.png");
     position: absolute;
