@@ -65,8 +65,10 @@
   display: flex;
   li {
     margin: 0 1em;
+    padding: 3px 3px 10px;
     &:hover {
-      text-decoration: underline;
+      // background-color: darken(white, 5%);
+      border-bottom: 1pt solid var(--text);
     }
   }
 }

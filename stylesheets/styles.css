@@ -7000,9 +7000,13 @@ h1, h2, h3, h4, h5, h6 {
     .parallax2 .p2-list p {
       margin: 1.5em; }
       .parallax2 .p2-list p:hover {
-        color: #cccccc;
+        animation: color1 .25s ease-in-out forwards;
         cursor: pointer; }
-
+@keyframes color1 {
+  0% {
+    color: white; }
+  100% {
+    color: #cccccc; } }
 .parallax3 {
   color: white;
   opacity: 0;
@@ -7233,9 +7237,10 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-nav ul {
   display: flex; }
   .gallery-nav ul li {
-    margin: 0 1em; }
+    margin: 0 1em;
+    padding: 3px 3px 10px; }
     .gallery-nav ul li:hover {
-      text-decoration: underline; }
+      border-bottom: 1pt solid var(--text); }
 
 .gall-col {
   height: 110vh;
