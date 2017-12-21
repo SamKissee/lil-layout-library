@@ -7068,9 +7068,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text); }
   .page-footer .footer-container {
     height: 225px;
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-right: 30px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
   .page-footer .footer-copyright {
     background-color: var(--background); }
     .page-footer .footer-copyright .copyright-container {
@@ -7078,7 +7077,7 @@ h1, h2, h3, h4, h5, h6 {
       justify-content: space-between;
       align-items: center;
       padding-left: 20px;
-      width: 80%;
+      width: 100%;
       margin: 0 auto; }
       .page-footer .footer-copyright .copyright-container .footer-icons {
         color: var(--text);
@@ -7089,7 +7088,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center; }
   .footer-line-con .footer-line {
-    width: 80%;
+    width: 100%;
     background-color: var(--text);
     height: 1px; }
 
