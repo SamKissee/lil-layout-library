@@ -7036,12 +7036,11 @@ h1, h2, h3, h4, h5, h6 {
       color: white; }
 
 .contact-us {
-  height: 45vh;
-  background-color: #42c4ac;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white; }
+  .contact-us .parallax-container {
+    height: 75vh; }
+  .contact-us form {
+    margin-top: 20vh; }
   .contact-us h2 {
     font-family: "Roboto";
     font-weight: 100; }
