@@ -4,7 +4,7 @@ A website layout library to help build a minimalistic portfolio and/or small bus
 
 ## Getting Started
 
-View this site live by copying [this link](https://SamKissee/github.io/lil-layout-library/) into the browser of your choice.
+View this site live by copying [this link](https://SamKissee.github.io/lil-layout-library/) into the browser of your choice.
 
 Alternatively, for users interested in using this as a base for their personal portfolio or small business, follow the steps below to clone this repository and easily update the styles and html to your liking. ✨
 
